@@ -1,0 +1,107 @@
+{
+    "globals": {},
+    "hero": {
+        "title_first_part": "Hi, I'm ",
+        "description": "Data Science and Data Engineering, with a technical vision and scalable focus. Committed to robust, long-term sustainable solutions and the intelligent automation of processes through orchestrated pipelines and integrable AI models.",
+        "cosmic_btn": "View My Work"
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "portfolio": "Portfolio"
+    },
+    "about_section": {
+        "title_first_part": "About",
+        "title_second_part": "Me",
+        "subtitle": "Data Science with a Technical Foundation and Systemic Focus",
+        "description_first_part": "I built my foundation in data science through a combination of self-directed learning, university training, and hands-on projects. My journey into tech began during the pandemic, where I gained experience in development and database management, and soon shifted my focus to artificial intelligence, data analysis, and the automation of intelligent workflows.",
+        "description_second_part": "Today, I specialize in data science and data engineering, working with tools like Python, SQL, Langchain, and orchestrated pipelines powered by models such as Gemini. My technical approach prioritizes scalability, clean architecture, and maintainable systems, with a focus on clarity, modularity, and efficient automation.",
+        "get_in_touch": "Get In Touch",
+
+        "cv_btn": "Download CV",
+        
+        "services": {
+            "service_1": {
+                "title": "Data Science & Analysis",
+                "description": "Extracting insights and building data-driven solutions through clean code, structured thinking, and real-world problem solving."
+            },
+            "service_2": {
+                "title": "Data Engineering & Automation",
+                "description": "Designing scalable pipelines, orchestrating workflows with Langchain, and integrating AI models like Gemini into efficient systems."
+            },
+            "service_3": {
+                "title": "System Architecture",
+                "description": "Creating robust, modular and maintainable systems with a clear separation of concerns and long-term scalability in mind."
+            }
+        }
+    },
+    "skills_section": {
+        "title_first_part": "My",
+        "title_second_part": "Skills",
+        "w_all": "All",
+        "w_tools": "Tools"
+    },
+    "project_section": {
+        "title_first_part": "Featured",
+        "title_second_part": "Projects",
+        "description": "Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience.",
+        "github_btn": "Check My Github",
+        "projects": {
+            "project_1": {
+                "title": "Google-Yelp",
+                "description": "Google and Yelp tourism review integration system to enrich site analysis and user experiences in different cities. Includes visualization, ETL, and web deployment.",
+                "img": "/img/google_yelp.png",
+                "url": "https://ds-henry-recommender-system.streamlit.app/",
+                "repo": "https://github.com/DataSciGina/Google-Yelp"
+            },
+            "project_2": {
+                "title": "Video Game Recommender System",
+                "description": "Intelligent game recommendation system based on real user interactions on Steam. Comprehensive analysis, predictive models, and functional application.",
+                "img": "/img/steam.webp",
+                "url": "https://github.com/DataSciGina/VideoGameRecommender",
+                "repo": "https://github.com/DataSciGina/VideoGameRecommender"
+            },
+            "project_3": {
+                "title": "Siniestros Viales en CABA",
+                "description": "In-depth exploratory data analysis of traffic accident data in the City of Buenos Aires, with interactive visualizations and reports in Power BI.",
+                "img": "/img/siniestros.png",
+                "url": "https://github.com/DataSciGina/SiniestrosViales",
+                "repo": "https://github.com/DataSciGina/SiniestrosViales"
+            }
+        }
+    },
+    "contact_section": {
+        "title_first_part": "Get In",
+        "title_second_part": "Touch",
+        "description": "Have a project in mind or want to collaborate? Feel free to reach out. I'm always open to discussing new opportunities.",
+        "subtitle_info": "Contact Information",
+
+        "mail": "fernandezagostina.ra@gmail.com",
+        "phone": "+54 9 264 5873 482",
+        "location": "San Luis, Argentina",
+
+        "w_phone": "Phone",
+        "w_location": "Location",
+        "w_mail": "E-mail",
+        "w_sending": "Sending...",
+
+        "connect": "Connect With Me",
+
+        "subtitle_form": "Send a Message",
+        "name_label": "Your Name",
+        "name_placeholder": "Jane Doe",
+        "mail_label": "Your E-mail",
+        "mail_placeholder": "fernandezagostina.ra@gmail.com",
+        "message_label": "Your Message",
+        "message_placeholder": "Hello, I'd like to talk about...",
+        "send_btn": "Send Message",
+        "message_sent_alert": "Massage sent!",
+        "not_sent_alert": "Oops! Something went wrong. Please try again."
+    },
+    "footer": {
+        "copyright": "All rights reserved."
+    }
+}

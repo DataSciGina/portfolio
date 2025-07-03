@@ -1,0 +1,107 @@
+{
+    "globals": {},
+    "hero": {
+        "title_first_part": "Hola, soy ",
+        "description": "Data Scientist y Data Engineer, con visión técnica y enfoque escalable. Comprometida con soluciones robustas, sostenibles a largo plazo y la automatización inteligente de procesos mediante pipelines orquestados y modelos de IA integrables.",
+        "cosmic_btn": "Conoce Mi Trabajo"
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "Sobre Mí",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "portfolio": "Portafolio"
+    },
+    "about_section": {
+        "title_first_part": "Sobre",
+        "title_second_part": "Mí",
+        "subtitle": "Ciencia de datos con base técnica y enfoque sistémico",
+        "description_first_part": "Me formé de manera autodidacta y académica en ciencia de datos, combinando bootcamps intensivos, formación universitaria y experiencia práctica en proyectos. Inicié mi recorrido técnico durante la pandemia, aprendiendo desarrollo y bases de datos desde cero, y rápidamente me orienté hacia la inteligencia artificial, el análisis de datos y la construcción de sistemas automatizados.",
+        "description_second_part": "Actualmente, me especializo en ciencia e ingeniería de datos, con experiencia en Python, SQL, Langchain y orquestación de flujos de trabajo impulsados por modelos como Gemini. Mi enfoque se centra en diseñar sistemas escalables, bien estructurados y sostenibles, con una fuerte atención a la claridad, la separación de responsabilidades y la automatización eficiente.",
+        "get_in_touch": "Contáctame",
+
+        "cv_btn": "Descargar CV",
+
+        "services": {
+            "service_1": {
+                "title": "Ciencia y Análisis de Datos",
+                "description": "Obtención de insights y desarrollo de soluciones basadas en datos mediante código limpio, pensamiento estructurado y resolución de problemas reales."
+            },
+            "service_2": {
+                "title": "Ingeniería de Datos y Automatización",
+                "description": "Diseño de pipelines escalables, orquestación de flujos con Langchain e integración de modelos de IA como Gemini en sistemas eficientes."
+            },
+            "service_3": {
+                "title": "Arquitectura de Sistemas",
+                "description": "Creación de sistemas robustos, modulares y mantenibles con una clara separación de responsabilidades y visión a largo plazo."
+            }
+        }
+    },
+    "skills_section": {
+        "title_first_part": "Mis",
+        "title_second_part": "Habilidades",
+        "w_all": "Todas",
+        "w_tools": "Herramientas"
+    },
+    "project_section": {
+        "title_first_part": "Proyectos",
+        "title_second_part": "Destacados",
+        "description": "Aquí hay algunos de mis proyectos recientes. Cada proyecto fue cuidadosamente elaborado con atención al detalle, rendimiento y experiencia de usuario.",
+        "github_btn": "Revisa mi Github",
+        "projects": {
+            "project_1": {
+                "title": "Google-Yelp",
+                "description": "Sistema de integración de reseñas turísticas de Google y Yelp para enriquecer análisis de sitios y experiencias del usuario en distintas ciudades. Incluye visualización, ETL y despliegue web.",
+                "img": "/img/google_yelp.png",
+                "url": "#",
+                "repo": "https://github.com/DataSciGina/Google-Yelp"
+            },
+            "project_2": {
+                "title": "Video Game Recommender System",
+                "description": "Sistema inteligente de recomendación de videojuegos basado en interacciones de usuarios reales de Steam. Análisis completo, modelos predictivos y aplicación funcional.",
+                "img": "/img/steam.webp",
+                "url": "#",
+                "repo": "https://github.com/DataSciGina/VideoGameRecommender"
+            },
+            "project_3": {
+                "title": "Siniestros Viales en CABA",
+                "description": "Análisis exploratorio profundo de datos de siniestros viales en la Ciudad de Buenos Aires, con visualizaciones interactivas y reportes en Power BI.",
+                "img": "/img/siniestros.png",
+                "url": "https://github.com/DataSciGina/SiniestrosViales",
+                "repo": "#https://github.com/DataSciGina/SiniestrosViales"
+            }
+        }
+    },
+    "contact_section": {
+        "title_first_part": "Ponte en",
+        "title_second_part": "Contacto",
+        "description": "¿Tienes un proyecto en mente o quieres colaborar? No dudes en ponerte en contacto conmigo. Siempre estoy dispuesta a colaborar",
+        "subtitle_info": "Información de Contacto",
+
+        "mail": "fernandezagostina.ra@gmail.com",
+        "phone": "+54 9 264 5873 482",
+        "location": "San Luis, Argentina",
+
+        "w_phone": "Teléfono",
+        "w_location": "Ubicación",
+        "w_mail": "E-mail",
+        "w_sending": "Enviando...",
+
+        "connect": "Conecta Conmigo",
+
+        "subtitle_form": "Envíame un Mensaje",
+        "name_label": "Tu Nombre",
+        "name_placeholder": "Jane Doe",
+        "mail_label": "Tu E-mail",
+        "mail_placeholder": "jane@doe.com",
+        "message_label": "Tu Mensaje",
+        "message_placeholder": "Hola, me gustaría hablar sobre...",
+        "send_btn": "Enviar Mensaje",
+        "message_sent_alert": "¡Mensaje enviado!",
+        "not_sent_alert": "¡Ups! Algo anda mal. Por favor intente nuevamente."
+    },
+    "footer": {
+        "copyright": "Todos los derechos reservados."
+    }
+}
