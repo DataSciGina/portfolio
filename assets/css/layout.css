@@ -1,0 +1,36 @@
+
+/* ================================================
+   Structure and Design
+   ================================================ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-main);
+    color: var(--gray);
+    font-family: "Roboto", sans-serif;
+}
+
+/* ================================================
+   HEADER
+   ================================================ */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    padding: 0 1.5em;
+    background-color: var(--primary-color);
+}

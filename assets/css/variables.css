@@ -1,0 +1,24 @@
+/* ================================================
+   GLOBAL VARIABLES
+   ================================================ */
+
+:root {
+    --blue: #1e40af;
+    --deep-blue: #0F172A;
+    --deep-purple: #3B1E54;
+    --warm-gray: #F5F7FA;
+    --cold-gray: #D1D5DB;
+    --gray: #2B2E34;
+    --accent: #2EC4B6;
+
+    /* Light Mode Colors */
+    --bg-main: #f8fafc;        /* slate-50 */
+    --bg-card: #ffffff;
+    --bg-muted: #f1f5f9;      /* slate-100 */
+
+    /* Dark Mode Colors */
+    --bg-main-dark: #0B1C2D;       /* blue-black */
+    --bg-card-dark: #020617;
+    --bg-muted-dark: #020617;    /* USED */
+}
+

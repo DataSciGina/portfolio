@@ -1,0 +1,24 @@
+
+/* ================================================
+   Light and Dark Theme Styles
+   ================================================ */
+   
+
+body.dark {
+    background-color: var(--bg-muted-dark);
+    color: var(--bg-muted-dark);
+}
+
+/* ================================================
+   BACKGROUND CON CANVAS FIJO
+   ================================================ */
+
+#canvas1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: -1;  /* detrás de todo */
+    pointer-events: none;  /* no bloquea clics */
+}
