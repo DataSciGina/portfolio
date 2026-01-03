@@ -2,28 +2,53 @@
    COMPONENTS
    ================================================ */
 
+@import 'variables.css';
 
 /* ================================================
-   Switches
+   Dark Mode Switch
    ================================================ */
-.switches {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.toggle-theme {
+.dark-mode-toggle {
+    width: var(--dark-mode-width);
+    height: var(--dark-mode-height);
+    border: 1px solid var(--gray);
     display: flex;
     align-items: center;
-    justify-content: center;
+    border-radius: 999px;
+    background-color: var(--cold-gray);
+    justify-content: space-between;
     cursor: pointer;
 }
 
-.toggle-theme__icon {
-    margin-right: 0.5em;
-    width: 20px;
+.dark-mode-toggle .circle {
+    width: 40%;
+    height: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(10%);
+    position: relative;
+    background-color: var(--bg-main);
+    overflow: hidden;
+
+    transition: all .5s ease-out;
 }
 
-.toggle-theme__text {
-    font-size: 0.8rem;
+.dark-mode-toggle .circle ion-icon {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+
+    transition: transform .5s ease-out;
+}
+
+.dark-mode-toggle .circle .sun {
+    transform: translateY(0);
+    color: var(--yellow-sun);
+}
+
+.dark-mode-toggle .circle .moon {
+    transform: translateY(-120%);
 }

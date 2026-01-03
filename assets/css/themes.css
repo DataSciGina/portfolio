@@ -3,14 +3,16 @@
    Light and Dark Theme Styles
    ================================================ */
    
+@import 'variables.css';
 
 body.dark {
     background-color: var(--bg-muted-dark);
     color: var(--bg-muted-dark);
+    transition: all .5s ease-out;
 }
 
 /* ================================================
-   BACKGROUND CON CANVAS FIJO
+   BACKGROUND 
    ================================================ */
 
 #canvas1 {
@@ -21,4 +23,22 @@ body.dark {
     height: 100vh !important;
     z-index: -1;  /* detrás de todo */
     pointer-events: none;  /* no bloquea clics */
+}
+
+/* ================================================
+   Dark Mode Toggle Adjustments
+   ================================================ */
+
+body.dark .circle {
+    transform: translateX(140%);
+    background-color: var(--bg-main-dark);
+}
+
+body.dark .circle .moon {
+    transform: translatex(0);
+    color: var(--warm-gray);
+}
+
+body.dark .circle .sun {
+    transform: translateY(120%);
 }

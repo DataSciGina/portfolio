@@ -20,5 +20,12 @@
     --bg-main-dark: #0B1C2D;       /* blue-black */
     --bg-card-dark: #020617;
     --bg-muted-dark: #020617;    /* USED */
+
+    --yellow-sun: #FCDE5B;
+    --sky-blue: lightskyblue;
+
+    /* SIZES */
+    --dark-mode-width: 100px;
+    --dark-mode-height: 50px;
 }
 
