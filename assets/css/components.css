@@ -33,7 +33,7 @@
     background-color: var(--bg-main);
     overflow: hidden;
 
-    transition: all .5s ease-out;
+    transition: transform .5s ease-out, background-color .5s ease;
 }
 
 .dark-mode-toggle .circle ion-icon {
