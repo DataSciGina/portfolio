@@ -7,7 +7,7 @@
 
 body.dark {
     background-color: var(--bg-muted-dark);
-    color: var(--bg-muted-dark);
+    color: var(--warm-gray);
     transition: all .5s ease-out;
 }
 
@@ -24,6 +24,8 @@ body.dark {
     z-index: -1;  /* detrás de todo */
     pointer-events: none;  /* no bloquea clics */
 }
+
+
 
 /* ================================================
    Dark Mode Toggle Adjustments
@@ -47,3 +49,6 @@ body.dark .circle .sun {
    NAVBAR
    ================================================ */
 
+body.dark .mobile-nav-toggle ion-icon {
+      color: var(--warm-gray);
+   }

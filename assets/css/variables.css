@@ -9,7 +9,7 @@
     --warm-gray: #F5F7FA;
     --cold-gray: #D1D5DB;
     --gray: #2B2E34;
-    --accent: #2EC4B6;
+    --accent: #01F4FD;
 
     /* Light Mode Colors */
     --bg-main: #f8fafc;        /* slate-50 */
@@ -22,10 +22,9 @@
     --bg-muted-dark: #020617;    /* USED */
 
     --yellow-sun: #FCDE5B;
-    --sky-blue: lightskyblue;
 
     /* SIZES */
-    --dark-mode-width: 100px;
-    --dark-mode-height: 50px;
+    --dark-mode-width: 80px;
+    --dark-mode-height: 40px;
 }
 

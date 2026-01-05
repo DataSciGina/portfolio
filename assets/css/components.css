@@ -52,3 +52,20 @@
 .dark-mode-toggle .circle .moon {
     transform: translateY(-120%);
 }
+
+/* ================================================
+   Burger Menu
+   ================================================ */
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+/* ================================================
+   Buttons
+   ================================================ */
+
+button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
