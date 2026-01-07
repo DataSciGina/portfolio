@@ -44,7 +44,7 @@ a {
 
 .flex {
     display: flex;
-    gap: var(--gap, 2rem);
+    gap: var(--gap, 0);
 }
 
 .grid {
@@ -63,7 +63,7 @@ a {
 .header {
     align-items: center;
     justify-content: space-between;
-    padding: 0 1.5em;
+    padding: 0;
 }
 
 /* ================================================
@@ -72,7 +72,7 @@ a {
 
 .navbar .logo img {
     width: 75px;
-    margin: 2rem 0;
+    margin: 2rem;
 }
  
 /* ================================================
@@ -89,14 +89,16 @@ a {
 .primary-navigation {
     padding: 0;
     margin: 0;
+    align-items: center;
 
-    background: hsl(0 0% 100% / 0.1);
+    background: hsl(220 15% 90% / 0.35);
 }
 
 @supports (backdrop-filter: blur(1rem)) {
     .primary-navigation {
         background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(.3rem);
+        backdrop-filter: blur(0.3rem) saturate(120%);
+        box-shadow: 1px 1px 5px hsl(0 0% 0% / 0.1);
     }
 }
 
@@ -107,4 +109,19 @@ a {
 .primary-navigation a > [aria-hidden="true"] {
     font-weight: 700;
     margin-inline-end: .75em;
+}
+
+/* ================================================
+   SYSTEM RAIL
+   ================================================ */
+
+.system-rail {
+  position: fixed;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  z-index: 20;
 }

@@ -32,17 +32,17 @@ body.dark {
    ================================================ */
 
 body.dark .circle {
-    transform: translateX(140%);
-    background-color: var(--bg-main-dark);
+   transform: translateX(140%);
+   background-color: var(--bg-main-dark);
 }
 
 body.dark .circle .moon {
-    transform: translatex(0);
-    color: var(--warm-gray);
+   transform: translatex(0);
+   color: var(--warm-gray);
 }
 
 body.dark .circle .sun {
-    transform: translateY(120%);
+   transform: translateY(120%);
 }
 
 /* ================================================
@@ -50,5 +50,9 @@ body.dark .circle .sun {
    ================================================ */
 
 body.dark .mobile-nav-toggle ion-icon {
-      color: var(--warm-gray);
-   }
+   color: var(--warm-gray);
+}
+
+body.dark .navbar button {
+   filter: invert(100%);
+}

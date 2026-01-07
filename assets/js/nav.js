@@ -3,5 +3,7 @@ const navToggle = document.querySelector('.mobile-nav-toggle');
 
 navToggle.addEventListener('click', () => {
     const visibility = primaryNav.getAttribute('data-visible');
+
     primaryNav.setAttribute('data-visible', visibility === 'true' ? 'false' : 'true');
+    navToggle.setAttribute('aria-expanded', visibility === 'true' ? 'false' : 'true');
 });

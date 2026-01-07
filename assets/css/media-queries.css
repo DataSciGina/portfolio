@@ -2,16 +2,28 @@
    NAVBAR
    ================================================ */
 
-@media (max-width: 35em) {
+@media (max-width: 45em) {
+   /* Primary Navigation */
+
    .primary-navigation {
       gap: 2em;
       position: fixed;
       inset: 0 0 0 30%;
+      align-items: center;
 
       flex-direction: column;
       padding: min(30vh, 10rem) 2em;
 
       transform: translateX(100%);
+      transition: transform 350ms ease-out;
+   }
+
+   .nav-controls {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
    }
 
    .primary-navigation[data-visible="true"] {
@@ -22,14 +34,24 @@
       z-index: 9;
    }
 
+   /* Mobile Navigation */
+
    .mobile-nav-toggle {
       display: block;
       position: absolute;
       z-index: 10;
       width: 2rem;
       aspect-ratio: 1;
-      top: 2rem;
+      top: 3.75rem;
       right: 2rem;
+   }
+
+   .mobile-nav-toggle[aria-expanded="true"] {
+      position: fixed;
+      background: url("../img/x.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      opacity: .75;
    }
 
    .mobile-nav-toggle ion-icon {
@@ -37,4 +59,39 @@
       height: 100%;
       color: var(--gray);
    }
+
+   .mobile-nav-toggle ion-icon {
+      position: absolute;
+      inset: 0; /* (top/right/bottom/left: 0) */
+      margin: auto;
+   }
+
+   .navbar button {
+      border: none;
+      background: url("../img/menu.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      opacity: .8;
+   }
+
+   .primary-navigation a > [aria-hidden="true"] {
+      margin-inline-end: 0;
+   }
+}
+
+@media (min-width: 45em) {
+   .primary-navigation {
+      --gap: clamp(1.5rem, 5vw, 3rem);
+      padding-block: 2rem;
+      padding-inline: clamp(3rem, 7vw, 10rem) 0;
+   }
+
+  .nav-controls {
+    padding-left: 2rem;
+    border-left: 1px solid var(--gray);
+  }
+
+  body.dark .nav-controls {
+    border-left: 1px solid var(--cold-gray);
+  }
 }
