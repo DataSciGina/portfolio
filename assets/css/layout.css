@@ -96,9 +96,7 @@ a {
 
 @supports (backdrop-filter: blur(1rem)) {
     .primary-navigation {
-        background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(0.3rem) saturate(120%);
-        box-shadow: 1px 1px 5px hsl(0 0% 0% / 0.1);
+        backdrop-filter: blur(0.25rem) saturate(120%);
     }
 }
 

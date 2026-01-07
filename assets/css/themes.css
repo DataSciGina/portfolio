@@ -56,3 +56,13 @@ body.dark .mobile-nav-toggle ion-icon {
 body.dark .navbar button {
    filter: invert(100%);
 }
+
+
+
+@supports (backdrop-filter: blur(1rem)) {
+   body.dark  .primary-navigation {
+      background: hsl(0 0% 100% / 0.1);
+      backdrop-filter: blur(0.3rem) saturate(120%);
+      box-shadow: 1px 1px 5px hsl(0 0% 0% / 0.1);
+   }
+}
