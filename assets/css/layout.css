@@ -64,6 +64,18 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 0;
+    position: sticky;
+    top: 0;
+    padding: 2rem 0;
+    transition: padding 0.3s ease;
+}
+
+.header.scrolled {
+  padding: 0.8rem 0;
+}
+
+.header.scrolled .logo img {
+  width: 50px;
 }
 
 /* ================================================
