@@ -53,7 +53,7 @@
 
 .system-rail {
     padding-left: 1.5rem;
-    border-left: 1px solid hsl(220 10% 60% / 0.35);
+    border-left: 1px solid var(--tranlucid-neutral-gray-high);
     align-items: center;
     position: fixed;
     right: 1.5rem;
@@ -63,6 +63,16 @@
     flex-direction: column;
     gap: 1.2rem;
     z-index: 20;
+
+    
+    opacity: 0;
+    transform: translateY(-50%) translateX(10px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.ui-loaded .system-rail {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
 }
 
 .rail-item {
@@ -72,24 +82,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--translucid-neutral-gray);
+    background: var(--tranlucid-neutral-gray-light);
     backdrop-filter: blur(0.1rem);
-    border: 1px solid hsl(220 10% 60% / 0.25);
+    border: 1px solid var(--tranlucid-neutral-gray-high);
     color: var(--gray);
     cursor: pointer;
-    transition: transform 0.2s ease, background 0.2s ease;
+    transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .rail-item:hover {
-    transform: translateX(-4px);
-    background: hsl(220 10% 60% / 0.4);
+    transform: translateX(-6px);
+    box-shadow: 2px 3px 5px var(--tranlucid-neutral-gray-mid);
+    background: var(--tranlucid-neutral-gray-mid);
+}
+
+.rail-item:active {
+  transform: scale(0.95);
+}
+
+.rail-item:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .rail-divider {
     width: 1px;
     height: 24px;
     margin: 0 auto;
-    background: hsl(220 10% 60% / 0.3);
+    background: var(--tranlucid-neutral-gray-high);
 }
 
 a.rail-item ion-icon {

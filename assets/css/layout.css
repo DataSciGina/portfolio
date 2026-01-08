@@ -52,8 +52,9 @@ a {
     gap: var(--gap, 2rem);
 }
 
-.d-block {
-    display: block;
+.tranlucid-bg {
+    background: var(--tranlucid-neutral-gray);
+    backdrop-filter: blur(0.1rem);
 }
 
 /* ================================================

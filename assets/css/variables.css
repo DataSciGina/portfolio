@@ -11,7 +11,11 @@
     --gray: #2B2E34;
     --accent: #01F4FD;
 
-    --translucid-neutral-gray: hsl(220 15% 90% / 0.15);
+    --tranlucid-neutral-gray-light: hsl(220 15% 90% / 0.15);
+    --tranlucid-neutral-gray-mid: hsl(220 10% 60% / 0.4);
+    --tranlucid-neutral-gray-high: hsl(220 10% 60% / 0.3);
+
+    --tranlucid-blue: hsl(0 0% 100% / 0.075);
 
     /* Light Mode Colors */
     --bg-main: #f8fafc;        /* slate-50 */

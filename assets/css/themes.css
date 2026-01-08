@@ -54,7 +54,7 @@ body.dark .navbar button {
 
 @supports (backdrop-filter: blur(1rem)) {
    body.dark  .primary-navigation {
-      background: hsl(0 0% 100% / 0.1);
+      background: var(--tranlucid-blue);
       backdrop-filter: blur(0.3rem) saturate(120%);
       box-shadow: 1px 1px 5px hsl(0 0% 0% / 0.1);
    }
@@ -69,5 +69,5 @@ body.dark .rail-item {
 
 body.dark .rail-item:hover {
     transform: translateX(-4px);
-    background: hsl(220 10% 60% / 0.5);
+    background: var(--tranlucid-neutral-gray-mid);
 }
