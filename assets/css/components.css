@@ -8,49 +8,35 @@
    Dark Mode Switch
    ================================================ */
 
-.dark-mode-toggle {
-    width: var(--dark-mode-width);
-    height: var(--dark-mode-height);
-    border: 1px solid var(--gray);
-    display: flex;
-    align-items: center;
-    border-radius: 999px;
-    background-color: var(--cold-gray);
-    justify-content: space-between;
-    cursor: pointer;
-}
-
 .dark-mode-toggle .circle {
-    width: 40%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: translateX(10%);
     position: relative;
-    background-color: var(--bg-main);
     overflow: hidden;
 
     transition: transform .5s ease-out, background-color .5s ease;
 }
 
 .dark-mode-toggle .circle ion-icon {
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 75%;
     position: absolute;
 
     transition: transform .5s ease-out;
 }
 
 .dark-mode-toggle .circle .sun {
-    transform: translateY(0);
+    transform: translateY(120%);
     color: var(--yellow-sun);
 }
 
 .dark-mode-toggle .circle .moon {
-    transform: translateY(-120%);
+    transform: translateY(0);
 }
 
 /* ================================================
@@ -62,6 +48,51 @@
 }
 
 /* ================================================
-   Buttons
+   System Rail
    ================================================ */
 
+.system-rail {
+    padding-left: 1.5rem;
+    border-left: 1px solid hsl(220 10% 60% / 0.35);
+    align-items: center;
+    position: fixed;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    z-index: 20;
+}
+
+.rail-item {
+    width: 42px;
+    height: 42px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--translucid-neutral-gray);
+    backdrop-filter: blur(0.1rem);
+    border: 1px solid hsl(220 10% 60% / 0.25);
+    color: var(--gray);
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.rail-item:hover {
+    transform: translateX(-4px);
+    background: hsl(220 10% 60% / 0.4);
+}
+
+.rail-divider {
+    width: 1px;
+    height: 24px;
+    margin: 0 auto;
+    background: hsl(220 10% 60% / 0.3);
+}
+
+a.rail-item ion-icon {
+    width: 60%;
+    height: 60%;
+}

@@ -11,6 +11,8 @@
     --gray: #2B2E34;
     --accent: #01F4FD;
 
+    --translucid-neutral-gray: hsl(220 15% 90% / 0.15);
+
     /* Light Mode Colors */
     --bg-main: #f8fafc;        /* slate-50 */
     --bg-card: #ffffff;
@@ -21,10 +23,6 @@
     --bg-card-dark: #020617;
     --bg-muted-dark: #020617;    /* USED */
 
-    --yellow-sun: #FCDE5B;
-
-    /* SIZES */
-    --dark-mode-width: 80px;
-    --dark-mode-height: 40px;
+    --yellow-sun: #ffd518;
 }
 

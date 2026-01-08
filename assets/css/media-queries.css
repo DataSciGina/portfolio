@@ -16,6 +16,8 @@
 
       transform: translateX(100%);
       transition: transform 350ms ease-out;
+
+      background: hsl(220 15% 90% / 0.25);
    }
 
    .nav-controls {
@@ -83,15 +85,6 @@
    .primary-navigation {
       --gap: clamp(1.5rem, 5vw, 3rem);
       padding-block: 2rem;
-      padding-inline: clamp(3rem, 7vw, 10rem) 0;
+      padding-inline: clamp(3rem, 7vw, 10rem);
    }
-
-  .nav-controls {
-    padding-left: 2rem;
-    border-left: 1px solid var(--gray);
-  }
-
-  body.dark .nav-controls {
-    border-left: 1px solid var(--cold-gray);
-  }
 }
